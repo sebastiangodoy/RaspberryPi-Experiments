@@ -16,3 +16,10 @@ gpio.setup(led,gpio.OUT)
 gpio.output(led,1)
 time.sleep(1)
 gpio.output(led,0)
+time.sleep(1)
+gpio.output(led,1)
+time.sleep(1)
+gpio.output(led,0)
+
+# Clean up
+gpio.cleanup()
